@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    font-family: 'Electrolize', sans-serif;
+}
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4{
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*  variable => box
+    nombre = contenido */
+:root{
+   --main-color: #0077B6;
+   --accent-color:#48CAE4;
+}
+
+.text-main{
+    color: var(--main-color);
+}
+.text-accent{
+    color: var(--accent-color);
+}
+.bg-main{
+    background-color: var(--main-color);
+}
+.bg-accent{
+    background-color: var(--accent-color);
+}
+.bordeNav{
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.bg-head{
+    background:linear-gradient(black 10%, transparent, black 90%) ,url('./media/img/nasa.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
